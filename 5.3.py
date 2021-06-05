@@ -4,7 +4,7 @@ import json
 
 s = socket.socket()
 
-port = 8080
+port = 8888
 
 s.connect(('192.168.56.102',port))
 

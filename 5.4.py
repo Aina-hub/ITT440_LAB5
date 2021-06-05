@@ -7,7 +7,7 @@ s = socket.socket()
 host_name = socket.gethostname()
 IPADDRESS = socket.gethostbyname(host_name)
 
-PORT = 8888
+PORT = 9797
 
 print("Ip address of the server: ", IPADDRESS)
 print("Server is listening on port: ", PORT)

@@ -12,7 +12,7 @@ else:
 s = socket.socket()
 
 #choose one port
-PORT = 8888
+PORT = 9797
 
 s.connect((ServerIp, PORT))
 
